@@ -1,4 +1,12 @@
-#CME 451 - Lab 5 -Exercise 2.1 V2.0
+#Created by Keith Petro (c) 2016
+#NSID: kdp343
+#Student ID: 11139277
+#Course: CME 451
+#Name: fragmented_datagrams
+#Purpose: fragments and creates a visual representation of datagrams
+
+#Dependencies (must be in the same directory as this file):
+#   N/A
 
 def createHTMLOutput(packetData):
     htmlFile = open('results.html', 'a')
