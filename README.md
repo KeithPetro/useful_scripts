@@ -4,5 +4,17 @@ A collection of scripts made for different purposes. Some of these were made for
 ## CME_451
 A collection of scripts I made for my CME 451 (Transport Networks) course.
 
+## concat_mp4.bat
+A simple script to concatenate n-part mp4 videos into a single video using ffmpeg. This script simply concatenates the video and audio streams, it does not do any re-encoding. I have found that there seems to be some bugs when it comes to this concatenation process, sometimes getting artifacting and lost frames after performing it, so double check any output from it. I will have to do more research and debugging to determine what exactly is causing these issues. Currently the script does not delete the intermediary files (the temporary .ts files). I hope to add options in the future including:
+* Make script delete intermediary files by default with option to preserve
+* Option to provide list of input files in order of concatenation
+* Option to specify output filename
+
+Current usage:
+
+`concat_mp4.bat [n]` where n is the number of input files. All files must be names 1.mp4 through n.mp4, and the script will produce out.mp4 as well as the intermediary .ts files.
+
+Please note that the files you are concatenating **must** be the same dimensions.
+
 ## msn_chat_history_viewer.py
 A script using BeautifulSoup4 in order to take old XML msn chat logs and convert them into a human readable textfile.
