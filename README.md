@@ -9,6 +9,7 @@ A simple script to concatenate n-part mp4 videos into a single video using ffmpe
 * Make script delete intermediary files by default with option to preserve
 * Option to provide list of input files in order of concatenation
 * Option to specify output filename
+* Option to concatenate H.265 (HEVC) streams - Currently this script only supports H.264 streams
 
 Current usage:
 
