@@ -17,5 +17,10 @@ Current usage:
 
 Please note that the files you are concatenating **must** be the same dimensions.
 
+## make_respective_folders.bat
+This script was made for a very specific application, but can be modified fairly easily to fit similar applications.
+
+The script takes all files in the current directory (except .bat files) and moves them to a folder with the same name as them up until the first dash (-). This was because I had a bunch of files with the naming scheme `program-version`, and I wished to sort these into separate folders for each program.
+
 ## msn_chat_history_viewer.py
 A script using BeautifulSoup4 in order to take old XML msn chat logs and convert them into a human readable textfile.
