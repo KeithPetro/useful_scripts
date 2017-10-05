@@ -24,3 +24,6 @@ The script takes all files in the current directory (except .bat files) and move
 
 ## msn_chat_history_viewer.py
 A script using BeautifulSoup4 in order to take old XML msn chat logs and convert them into a human readable textfile.
+
+## rename_broadcasting_logs.py
+A simple script I used to rename a collection of CRTC broadcasting logs into a standard naming scheme.
