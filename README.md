@@ -16,7 +16,7 @@ A simple script to concatenate n-part mp4 videos into a single video using ffmpe
 
 Current usage:
 
-`concat_mp4.bat [n]` where n is the number of input files. All files must be names 1.mp4 through n.mp4, and the script will produce out.mp4 as well as the intermediary .ts files.
+`concat_mp4.bat [n]` where n is the number of input files. All files must be named 1.mp4 through n.mp4, and the script will produce out.mp4 as well as the intermediary .ts files.
 
 Please note that the files you are concatenating **must** be the same dimensions.
 
