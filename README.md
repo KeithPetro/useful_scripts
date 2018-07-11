@@ -4,6 +4,9 @@ A collection of scripts made for different purposes. Some of these were made for
 ## CME_451
 A collection of scripts I made for my CME 451 (Transport Networks) course.
 
+## chrome_session_reader.sh
+A simple script to read old `Current Session`, `Current Tabs`, `Previous Session` and `Previous Tabs` files I had lying around. These files were taken from chrome's data folder after crashes in order to preserve potentially lost session data.
+
 ## concat_mp4.bat
 A simple script to concatenate n-part mp4 videos into a single video using ffmpeg. This script simply concatenates the video and audio streams, it does not do any re-encoding. I have found that there seems to be some bugs when it comes to this concatenation process, sometimes getting artifacting and lost frames after performing it, so double check any output from it. I will have to do more research and debugging to determine what exactly is causing these issues. Currently the script does not delete the intermediary files (the temporary .ts files). I hope to add options in the future including:
 * Make script delete intermediary files by default with option to preserve
