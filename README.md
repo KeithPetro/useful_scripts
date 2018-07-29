@@ -4,6 +4,17 @@ A collection of scripts made for different purposes. Some of these were made for
 ## CME_451
 A collection of scripts I made for my CME 451 (Transport Networks) course.
 
+## blackwidow_enable.py
+A script I found online and subsequently modified to be slightly more versitile. This script allows the user to enable the macro keys of their Razer BlackWidow keyboard, as well as modify some basic LED backlight behaviour.
+
+This particular version is a mish-mash of various different versions as follows:
+[tuxmark5's EnableRazer Haskell version](https://github.com/tuxmark5/EnableRazer)
+[Michael Fincham's Python version](https://finch.am/projects/blackwidow/)
+[Sergey's version](https://superuser.com/a/474595)
+[Chen Levy's version](https://superuser.com/a/696685)
+
+My own contributions to this script are small in comparison, all that was added was a programmatic way of finding your BlackWidow's device ID.
+
 ## chrome_session_reader.sh
 A simple script to read old `Current Session`, `Current Tabs`, `Last Session` and `Last Tabs` files I had lying around. These files were taken from chrome's data folder after crashes in order to preserve potentially lost session data.
 
