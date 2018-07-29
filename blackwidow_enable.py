@@ -111,8 +111,8 @@ class blackwidow(object):
 def main():
     getProductID()
 
-    init_new = '0200 0403'  # Enables use of macro keys (newer firmwares)
-    init_old = '0200 0402'  # Enables use of macro keys (older firmwares)
+    init_new = '0200 0403'
+    init_old = '0200 0402'
     pulsate = '0303 0201 0402'  # Make LEDs pulsate
     bright = '0303 0301 04ff'  # Make LEDs bright
     normal = '0303 0301 04a8'  # Make LEDs normal
@@ -120,7 +120,7 @@ def main():
     off = '0303 0301 0400'  # Turn LEDs off
 
     bw = blackwidow()
-    bw.send(init_new)
+    bw.send(init_old)
 
 
 if __name__ == '__main__':
